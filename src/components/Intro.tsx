@@ -21,7 +21,7 @@ export function Intro() {
         </Link>
       </div>
 
-      <h1 className="mt-14 font-display text-2xl/tight font-medium text-white">
+      <h1 className="mt-14 font-display text-xl/tight font-medium text-white text-center">
         We unite africa through technology.
       </h1>
       <SignUpForm />

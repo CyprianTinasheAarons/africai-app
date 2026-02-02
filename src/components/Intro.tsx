@@ -31,12 +31,18 @@ export function Intro() {
 
       <SignUpForm />
 
-      <div className="mt-6 flex items-center justify-center gap-6">
+      <div className="mt-6 flex flex-wrap items-center justify-center gap-4">
         <Link
           href="/services"
           className="text-sm font-semibold text-amber-400 hover:text-amber-300 transition-colors"
         >
           Services & Pricing →
+        </Link>
+        <Link
+          href="/blog"
+          className="text-sm font-semibold text-gray-400 hover:text-white transition-colors"
+        >
+          Blog
         </Link>
         <a
           href="https://wa.me/263777150345"

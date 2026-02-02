@@ -16,7 +16,7 @@ export function Intro() {
   return (
     <>
       <div className="flex justify-center">
-        <Link href="/" className='flex justify-center w-1/2'>
+        <Link href="/" className="flex justify-center w-1/2">
           <Logo />
         </Link>
       </div>
@@ -25,16 +25,27 @@ export function Intro() {
         AI-powered solutions built for Africa.
       </h1>
       <p className="mt-4 text-sm/6 text-gray-300 text-center">
-        Chatbots, consulting &amp; custom AI — serving 20,000+ users across the continent. From $50/month.
+        We build and deploy AI chatbots, automation tools, and custom platforms for African businesses.{' '}
+        <span className="text-amber-400 font-semibold">20,000+ users served.</span>
       </p>
+
       <SignUpForm />
-      <div className="mt-4 flex justify-center">
+
+      <div className="mt-6 flex items-center justify-center gap-6">
         <Link
           href="/services"
           className="text-sm font-semibold text-amber-400 hover:text-amber-300 transition-colors"
         >
-          View our services &amp; pricing →
+          Services & Pricing →
         </Link>
+        <a
+          href="https://wa.me/263777150345"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-sm font-semibold text-[#25D366] hover:text-[#20bd5a] transition-colors"
+        >
+          💬 WhatsApp
+        </a>
       </div>
     </>
   )
@@ -43,7 +54,7 @@ export function Intro() {
 export function IntroFooter() {
   return (
     <p className="flex items-baseline gap-x-2 text-[0.8125rem]/6 text-gray-500">
-      Brought to you by{' '}
+      © 2026 AfricAi · Built by{' '}
       <IconLink
         href="https://twitter.com/cyprianaarons"
         icon={TwitterIcon}

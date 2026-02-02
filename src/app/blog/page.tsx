@@ -5,6 +5,51 @@ import { WhatsAppButton } from '@/components/WhatsAppButton'
 
 const posts = [
   {
+    slug: 'ai-agents-future-business-automation',
+    title: 'AI Agents: The Next Evolution Beyond Chatbots — And Why Your Business Needs One',
+    excerpt:
+      'Chatbots answer questions. AI agents take action — booking appointments, processing payments, and managing entire customer journeys autonomously. Here\'s why 2026 is the tipping point.',
+    date: '2026-02-02',
+    readTime: '9 min read',
+    tags: ['AI Agents', 'Automation', 'Business'],
+  },
+  {
+    slug: 'vertical-ai-agents-industry-specific',
+    title: 'Vertical AI Agents: Why Industry-Specific AI Beats Generic Solutions Every Time',
+    excerpt:
+      'Generic chatbots know a little about everything. Vertical AI agents know everything about YOUR industry — and they convert 5x better. See examples across healthcare, finance, agriculture, and more.',
+    date: '2026-01-30',
+    readTime: '8 min read',
+    tags: ['Vertical AI', 'Industry', 'Agents'],
+  },
+  {
+    slug: 'openclaw-moltbots-always-on-ai-assistants',
+    title: 'OpenClaw & MoltBots: How Always-On AI Assistants Are Changing Business Operations',
+    excerpt:
+      'Most AI chatbots sit idle waiting for input. Always-on AI assistants built on OpenClaw work proactively 24/7 — monitoring, deciding, and acting while you sleep.',
+    date: '2026-01-25',
+    readTime: '10 min read',
+    tags: ['OpenClaw', 'MoltBots', 'Always-On AI'],
+  },
+  {
+    slug: 'ai-agents-increase-revenue-african-companies',
+    title: 'How AI Agents Can 3x Your Revenue: A Playbook for African Companies',
+    excerpt:
+      'Most African businesses lose 60-80% of potential revenue to slow responses and missed follow-ups. Here\'s the 5-stage framework for using AI agents to multiply your revenue.',
+    date: '2026-01-22',
+    readTime: '8 min read',
+    tags: ['Revenue', 'Playbook', 'Africa'],
+  },
+  {
+    slug: 'build-vs-buy-ai-agent-african-business',
+    title: 'Build vs Buy: Should Your African Business Build Custom AI or Use Off-the-Shelf?',
+    excerpt:
+      'DIY build, off-the-shelf SaaS, or agency-built custom? We break down costs, timelines, and why most off-the-shelf solutions fail in Africa.',
+    date: '2026-01-18',
+    readTime: '7 min read',
+    tags: ['Strategy', 'Build vs Buy', 'Africa'],
+  },
+  {
     slug: 'ai-chatbots-african-business-2026',
     title: 'Why Every African Business Needs an AI Chatbot in 2026',
     excerpt:

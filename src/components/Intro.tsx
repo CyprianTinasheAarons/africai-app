@@ -22,9 +22,20 @@ export function Intro() {
       </div>
 
       <h1 className="mt-14 font-display text-xl/tight font-medium text-white text-center">
-        We unite africa through technology.
+        AI-powered solutions built for Africa.
       </h1>
+      <p className="mt-4 text-sm/6 text-gray-300 text-center">
+        Chatbots, consulting &amp; custom AI — serving 20,000+ users across the continent. From $50/month.
+      </p>
       <SignUpForm />
+      <div className="mt-4 flex justify-center">
+        <Link
+          href="/services"
+          className="text-sm font-semibold text-amber-400 hover:text-amber-300 transition-colors"
+        >
+          View our services &amp; pricing →
+        </Link>
+      </div>
     </>
   )
 }

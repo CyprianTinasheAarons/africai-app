@@ -22,9 +22,9 @@ const monaSans = localFont({
 
 export const metadata: Metadata = {
   title:
-    'Africai: Leading AI and Blockchain Innovation for a United, Prosperous Africa',
+    'AfricAi — AI Chatbots, Consulting & Custom Solutions for African Businesses',
   description:
-    "Discover Africai's mission to transform Africa through AI and blockchain technology. Embracing unity, innovation, and sustainable development, we're dedicated to creating inclusive, secure digital solutions for Africa's unique challenges and opportunities. Join us in building a digitally empowered African society.",
+    "AfricAi delivers production-ready AI solutions for Africa. Chatbot setup from $500, AI consulting from $100/hr, managed subscriptions from $50/mo. 20,000+ users served across the continent.",
 
   alternates: {
     types: {
@@ -46,27 +46,26 @@ export default function RootLayout({
     >
       <head>
         <title>
-          Africai: Leading AI and Blockchain Innovation for a United, Prosperous
-          Africa
+          AfricAi — AI Chatbots, Consulting &amp; Custom Solutions for African Businesses
         </title>
         <meta
           name="title"
-          content="Africai: Leading AI and Blockchain Innovation for a United, Prosperous Africa"
+          content="AfricAi — AI Chatbots, Consulting & Custom Solutions for African Businesses"
         />
         <meta
           name="description"
-          content="Discover Africai's mission to transform Africa through AI and blockchain technology. Embracing unity, innovation, and sustainable development, we're dedicated to creating inclusive, secure digital solutions for Africa's unique challenges and opportunities. Join us in building a digitally empowered African society."
+          content="AfricAi delivers production-ready AI solutions for Africa. Chatbot setup from $500, AI consulting from $100/hr, managed subscriptions from $50/mo. 20,000+ users served across the continent."
         />
 
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.topiax.xyz/" />
+        <meta property="og:url" content="https://africai.app/" />
         <meta
           property="og:title"
-          content="Africai: Leading AI and Blockchain Innovation for a United, Prosperous Africa"
+          content="AfricAi — AI Chatbots, Consulting & Custom Solutions for African Businesses"
         />
         <meta
           property="og:description"
-          content="Discover Africai's mission to transform Africa through AI and blockchain technology. Embracing unity, innovation, and sustainable development, we're dedicated to creating inclusive, secure digital solutions for Africa's unique challenges and opportunities. Join us in building a digitally empowered African society."
+          content="AfricAi delivers production-ready AI solutions for Africa. Chatbot setup from $500, AI consulting from $100/hr, managed subscriptions from $50/mo. 20,000+ users served."
         />
         <meta
           property="og:image"
@@ -75,16 +74,16 @@ export default function RootLayout({
 
         <meta
           property="twitter:card"
-          content="https://res.cloudinary.com/coindraw/image/upload/v1704799927/ek9wt7cysbvbskx92vou.webp"
+          content="summary_large_image"
         />
-        <meta property="twitter:url" content="https://www.topiax.xyz/" />
+        <meta property="twitter:url" content="https://africai.app/" />
         <meta
           property="twitter:title"
-          content="Africai: Leading AI and Blockchain Innovation for a United, Prosperous Africa"
+          content="AfricAi — AI Chatbots, Consulting & Custom Solutions for African Businesses"
         />
         <meta
           property="twitter:description"
-          content="Discover Africai's mission to transform Africa through AI and blockchain technology. Embracing unity, innovation, and sustainable development, we're dedicated to creating inclusive, secure digital solutions for Africa's unique challenges and opportunities. Join us in building a digitally empowered African society."
+          content="AfricAi delivers production-ready AI solutions for Africa. Chatbot setup from $500, AI consulting from $100/hr, managed subscriptions from $50/mo. 20,000+ users served."
         />
         <meta
           property="twitter:image"

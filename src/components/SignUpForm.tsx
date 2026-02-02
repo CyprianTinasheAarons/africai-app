@@ -8,17 +8,17 @@ export function SignUpForm() {
     <div className="relative isolate mt-8 flex items-center pr-1">
       <Button
         type="button"
-        className="w-full bg-opacity-60 py-3"
-        onClick={() => (location.href = 'https://tidycal.com/cyprianaarons263/30-minute-meeting')}
+        className="w-full bg-opacity-60 py-4 text-base font-bold tracking-wide"
+        onClick={() => (location.href = 'https://cal.com/cyprian-aarons-topiax/30min')}
       >
         <a
-          href="https://tidycal.com/cyprianaarons263/30-minute-meeting"
+          href="https://cal.com/cyprian-aarons-topiax/30min"
           target="_blank"
           rel="noreferrer"
           className="uppercase tracking-widest"
           onClick={(e) => e.preventDefault()}
         >
-          Book a call
+          📞 Book a Free Strategy Call
         </a>
       </Button>
     </div>

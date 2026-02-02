@@ -2,6 +2,7 @@ import { useId } from 'react'
 
 import { Intro, IntroFooter } from '@/components/Intro'
 import { StarField } from '@/components/StarField'
+import { WhatsAppButton } from '@/components/WhatsAppButton'
 // import { ThemeToggle } from '@/components/ThemeToggle'
 
 function Timeline() {
@@ -105,6 +106,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
           {children}
         </main>
       </div>
+      <WhatsAppButton />
     </>
   )
 }
